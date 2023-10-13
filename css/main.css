@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+nav{
+    display:flex;
+    background-color: black;
+    color:white;
+    height:7vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3{
+    margin-left:5%;
+    font-size:23px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+.list-items{
+    display: flex;
+    justify-content: space-between;
+    margin-right:15%;
+    width:50%;
+}
+
+.list-items > a{
+    color:white;
+    text-decoration: none;
+    font-size:18px;
+}
+
+.hero{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero > img{
+    width:100%;
+    height:60vh;
+    object-fit: cover;
+    object-position: 50% 70%;
+}
+
+.hero h1{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top:30%;
+    color:white;
+    font-size:75px;
+    font-weight: 300;
+}
+
+
+header{
+    width:100%;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+}
+
+main{
+    width:100%;
+    max-width:800px;
+    min-width: 400px;
+
+}
+.marq{
+    display: flex;
+    justify-content:space-between ;
+    margin-top:3vh;
+    align-items: center;
+}
+.date{
+    width:100%;
+    margin-top:10vh;
+    border: 1px solid rgb(161, 161, 161);
+    background-color: rgb(219, 219, 219);
+}
+
+
+.marq img{
+    width:20%;
+    margin-left:1.5%;
+}
+
+.marq article{
+    margin-right: 20%;
+}
+
+.marq > article > p, .marq > article > h4{
+    margin-bottom: 2vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+.marq > button{
+    width:110px;
+    height:40px;
+    font-size:18px;
+    background-color: rgb(235, 183, 38);
+    border: 0px;
+    color: white;
+    border: 1px solid rgb(170, 125, 0); ;
+}
+
+hr{
+    margin-top: 2vh;
+    border: 1px solid rgb(187, 187, 187);
+}
+
